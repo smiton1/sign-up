@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+}
+
+form, .right{
+    box-sizing: border-box;
+}
+.right{
+    padding-left: 40px;
+    margin-top: 40px;
+    width: 100rem;
+}
+form div{
+    margin: 10px;
+    text-align: center;
+}
+
+#greenleaf{
+    width:50rem;
+    
+    
+}
+#banner{
+    height:120px;
+    width: 50rem;
+    background-color: black;
+    opacity: .7;
+    position: absolute;
+    top: 130px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#odin{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 170px; 
+
+} 
+.odin-title{
+    position: absolute;
+    font-size: 80px;
+    color:white;
+    padding: 20px 150px 30px 120px;
+}
+#form-hero{
+    border: 2px solid black;
+
+}
