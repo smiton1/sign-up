@@ -45,7 +45,7 @@
                 </div>
                 <div>
                     <label for="phone" style="display: block;">PHONE NUMBER</label>
-                    <input type="tel" require id="phone" name="phone-number">
+                    <input type="tel" required id="phone" name="phone-number">
                 </div>
 
             </div>
@@ -63,6 +63,20 @@
             </div>
         <button>Create Account</button>
     </form>
+    <script>
+        const passwordOne = document.querySelector("#password-one")
+        const passwordTwo = document.querySelector("#password-two")
+        const button = document.querySelector("button")
+        button.addEventListener("click",()=>{
+            if(passwordOne.value != passwordTwo.value){
+                passwordOne.style.border = "1px solid red"
+                passwordTwo.style.border = "1px solid red"
+            }else{
+                passwordOne.style.border = "1px solid green"
+                passwordTwo.style.border= "1px solid green"
+            }
+        })
+    </script>
 </div>
 </body>
 </html>

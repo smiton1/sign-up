@@ -99,6 +99,9 @@ input:focus{
     box-shadow: 2px 2px 2px 2px rgb(230, 230,230);
     border: none;
 }
-#password:invalid{
-    border: 2px solid red;
+/* #password-one:invalid, #password-two:invalid,#first-name:invalid, #last-name:invalid, #mail:invalid,#phone:invalid{
+    border: 1px solid red;
+} */
+#password-one:valid, #password-two:valid,#first-name:valid, #last-name:valid, #mail:valid,#phone:valid{
+    border: 1px solid green;
 }
