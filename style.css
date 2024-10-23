@@ -3,6 +3,10 @@
     padding: 0;
 
 }
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
 
 body{
     font-family: Helvetica, sans-serif;
@@ -13,23 +17,23 @@ form, .right{
     box-sizing: border-box;
 }
 .right{
-    padding-left: 40px;
     margin-top: 40px;
     width: 100rem;
 }
-form div{
-    margin: 10px;
-    text-align: center;
+.top{
+    padding-left: 30px;
+    margin: 60px 0;
+    font-weight: bold;
 }
 
 #greenleaf{
-    width:50rem;
+    width:40rem;
     
     
 }
 #banner{
     height:120px;
-    width: 50rem;
+    width: 40rem;
     background-color: black;
     opacity: .7;
     position: absolute;
@@ -39,12 +43,13 @@ form div{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: norse-bold;
 }
 #odin{
     width: 80px;
     height: auto;
     position: absolute;
-    left: 170px; 
+    left: 160px; 
 
 } 
 .odin-title{
@@ -54,6 +59,46 @@ form div{
     padding: 20px 150px 30px 120px;
 }
 #form-hero{
-    border: 2px solid black;
+    padding-top: 30px;
+    width: 100%;
 
+    text-align: left;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 0.2) ;
+    padding-left: 30px;
+
+}
+button{
+    padding: 10px 40px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 20px;
+    border: none;
+}
+
+.contact{
+    display: flex;
+    gap: 30px;
+    font-size: 10px;
+    font-weight: 700;
+}
+input{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: none;
+    height: 24px;
+    background-color: rgb(247, 247, 247);
+
+}
+#form-hero h1{
+    padding-bottom: 40px;
+
+}
+input:focus{
+    box-shadow: 2px 2px 2px 2px rgb(230, 230,230);
+    border: none;
+}
+#password:invalid{
+    border: 2px solid red;
 }
